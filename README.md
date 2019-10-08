@@ -1,6 +1,6 @@
 # IPFS Cluster DAppNode Package
 
-[![DAppNodeStore Available](https://img.shields.io/badge/DAppNodeStore-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/zcash.public.dappnode.eth)
+[![DAppNodeStore Available](https://img.shields.io/badge/DAppNodeStore-Available-brightgreen.svg)](http://my.admin.dnp.dappnode.eth/#/installer/ipfs-cluster.dnp.dappnode.eth)
 
 [![Website dappnode.io](https://img.shields.io/badge/Website-dappnode.io-brightgreen.svg)](https://dappnode.io/)
 [![Documentation Wiki](https://img.shields.io/badge/Documentation-Wiki-brightgreen.svg)](https://github.com/dappnode/DAppNode/wiki)
@@ -26,7 +26,7 @@ Extensive usage information is provided at https://cluster.ipfs.io/documentation
 You can reach the IPFS Cluster API at
 
 ```
-http://ipfs-cluster.public.dappnode:9094
+http://ipfs-cluster.dnp.dappnode:9094
 ```
 
 If you have any problem to configure join our [riot](https://riot.im/app/#/room/#DAppNode:matrix.org) channel and do not hesitate to ask us.
