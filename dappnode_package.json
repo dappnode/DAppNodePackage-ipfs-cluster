@@ -10,21 +10,11 @@
   "contributors": [
     "dappLion <dapplion@dappnode.io> (https://github.com/dapplion)"
   ],
-  "keywords": [
-    "IPFS",
-    "Cluster"
-  ],
-  "categories": [
-    "Developer tools"
-  ],
+  "keywords": ["IPFS", "Cluster"],
+  "categories": ["Developer tools"],
   "links": {
     "homepage": "https://cluster.ipfs.io/",
     "api": "http://ipfs-cluster.dnp.dappnode:9094"
   },
-  "license": "GLP-3.0",
-  "image": {
-    "path": "ipfs-cluster.dnp.dappnode.eth_0.0.1.tar.xz",
-    "hash": "/ipfs/Qmcj8rsyy9M63fuHhgj3Sf4R2LcRXUuVdvqVPAduKo6gnF",
-    "size": 22139692
-  }
+  "license": "GLP-3.0"
 }

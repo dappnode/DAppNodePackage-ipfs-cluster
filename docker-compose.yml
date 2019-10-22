@@ -1,19 +1,16 @@
-version: "3.4"
+version: '3.4'
 services:
   ipfs-cluster.dnp.dappnode.eth:
-    image: "ipfs-cluster.dnp.dappnode.eth:0.0.1"
+    image: 'ipfs-cluster.dnp.dappnode.eth:0.0.1'
     build: ./build
     restart: always
     volumes:
-      - data:/data/ipfs-cluster
-    # ports:
-    #   # Port 9096 is used to connect to other cluster peers
-    #   - 9096:9096
+      - 'data:/data/ipfs-cluster'
+    ports:
+      - '9096:9096'
     environment:
-      - "CLUSTER_PEERNAME=Your peer name"
-      - "CLUSTER_SECRET=" # MUST be equal among peers
-      - "BOOTSTRAP_MULTIADDRESS="
-      # CLUSTER_CRDT_TRUSTEDPEERS: "*" # Trust all peers in Cluster
-
+      - CLUSTER_PEERNAME=Your peer name
+      - CLUSTER_SECRET=
+      - BOOTSTRAP_MULTIADDRESS=
 volumes:
   data: {}

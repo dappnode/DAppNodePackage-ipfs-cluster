@@ -25,5 +25,5 @@ if [ -z "${BOOTSTRAP_MULTIADDRESS}" ]; then
     ipfs-cluster-service daemon
 else
     # Fallback to prevent infinite restarts
-    ipfs-cluster-service daemon --bootstrap BOOTSTRAP_MULTIADDRESS || ipfs-cluster-service daemon
+    ipfs-cluster-service daemon --bootstrap "${BOOTSTRAP_MULTIADDRESS}" || ipfs-cluster-service daemon
 fi
