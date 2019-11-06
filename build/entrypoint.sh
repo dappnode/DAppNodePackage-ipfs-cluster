@@ -21,6 +21,7 @@ else
     ipfs-cluster-service init --force --consensus crdt
 fi
 
+# Signal propagation is tested to work (SIGTERM)
 if [ -z "${BOOTSTRAP_MULTIADDRESS}" ]; then
     ipfs-cluster-service daemon
 else
