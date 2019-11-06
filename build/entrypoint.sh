@@ -21,10 +21,9 @@ else
     ipfs-cluster-service init --force --consensus crdt
 fi
 
-# Signal propagation is tested to work (SIGTERM)
 if [ -z "${BOOTSTRAP_MULTIADDRESS}" ]; then
-    ipfs-cluster-service daemon
+    exec ipfs-cluster-service daemon
 else
     # Fallback to prevent infinite restarts
-    ipfs-cluster-service daemon --bootstrap "${BOOTSTRAP_MULTIADDRESS}" || ipfs-cluster-service daemon
+    exec ipfs-cluster-service daemon --bootstrap "${BOOTSTRAP_MULTIADDRESS}" || exec ipfs-cluster-service daemon
 fi
