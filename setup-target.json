@@ -1,0 +1,6 @@
+{
+  "peerName": {
+    "type": "environment",
+    "name": "CLUSTER_PEERNAME"
+  }
+}
