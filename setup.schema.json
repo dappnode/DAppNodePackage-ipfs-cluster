@@ -1,0 +1,12 @@
+{
+  "description": "IPFS cluster setup",
+  "type": "object",
+  "required": ["peerName"],
+  "properties": {
+    "peerName": {
+      "type": "string",
+      "title": "Peer name",
+      "description": "Give your IPFS cluster a peer name so other cluster participants can know it's you"
+    }
+  }
+}
