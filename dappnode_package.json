@@ -16,5 +16,9 @@
     "homepage": "https://cluster.ipfs.io/",
     "api": "http://ipfs-cluster.dnp.dappnode:9094"
   },
-  "license": "GLP-3.0"
+  "license": "GLP-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dappnode/DAppNodePackage-ipfs-cluster.git"
+  }
 }
