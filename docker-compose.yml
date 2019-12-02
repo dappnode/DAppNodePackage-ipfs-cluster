@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   ipfs-cluster.dnp.dappnode.eth:
-    image: 'ipfs-cluster.dnp.dappnode.eth:0.0.1'
+    image: 'ipfs-cluster.dnp.dappnode.eth:0.0.2'
     build: ./build
     restart: always
     volumes:
