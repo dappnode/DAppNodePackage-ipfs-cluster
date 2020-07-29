@@ -29,7 +29,7 @@ You can reach the IPFS Cluster API at
 http://ipfs-cluster.dnp.dappnode:9094
 ```
 
-If you have any problem to configure join our [riot](https://riot.im/app/#/room/#DAppNode:matrix.org) channel and do not hesitate to ask us.
+If you have any problem to configure join our [element](https://app.element.io/#/room/#DAppNode:matrix.org) channel and do not hesitate to ask us.
 
 ## License
 
