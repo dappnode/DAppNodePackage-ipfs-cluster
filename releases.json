@@ -1,9 +1,10 @@
 {
   "0.0.1": {
-    "hash": "/ipfs/QmP3SM3wrvEjii9gWir5oekoCVdgVGrmw9g8VfBWujUuTm",
+    "hash": "/ipfs/QmSV42YKjT2Qz6qdcHpSxjqvFKc7XvrmxhJ1y8F16yS338",
     "type": "directory",
     "uploadedTo": {
-      "dappnode": "Wed, 27 Nov 2019 12:08:27 GMT"
-    }
+      "dappnode": "Mon, 02 Dec 2019 13:44:21 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=ipfs-cluster.dnp.dappnode.eth&v=0.0.1&h=%2Fipfs%2FQmSV42YKjT2Qz6qdcHpSxjqvFKc7XvrmxhJ1y8F16yS338&d=0xF35960302a07022aBa880DFFaEC2Fdd64d5BF1c1"
   }
 }

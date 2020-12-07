@@ -1,6 +1,6 @@
 {
   "name": "ipfs-cluster.dnp.dappnode.eth",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "shortDescription": "Automated data availability and redundancy on IPFS",
   "description": "IPFS Cluster provides data orchestration across a swarm of IPFS daemons by allocating, replicating and tracking a global pinset distributed among multiple peers. \n\n https://cluster.ipfs.io/",
   "avatar": "/ipfs/QmcUnmU95q1Xq34sf5qCQ4nby7uSSgbk8CJARBfM8hY2qm",
@@ -10,8 +10,13 @@
   "contributors": [
     "dappLion <dapplion@dappnode.io> (https://github.com/dapplion)"
   ],
-  "keywords": ["IPFS", "Cluster"],
-  "categories": ["Developer tools"],
+  "keywords": [
+    "IPFS",
+    "Cluster"
+  ],
+  "categories": [
+    "Developer tools"
+  ],
   "links": {
     "homepage": "https://cluster.ipfs.io/",
     "api": "http://ipfs-cluster.dnp.dappnode:9094"
