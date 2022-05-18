@@ -1,13 +1,13 @@
-version: '3.4'
+version: "3.4"
 services:
   ipfs-cluster.dnp.dappnode.eth:
-    image: 'ipfs-cluster.dnp.dappnode.eth:0.0.1'
-    build: ./build
+    image: "ipfs-cluster.dnp.dappnode.eth:0.0.1"
+    build: ./src
     restart: always
     volumes:
-      - 'data:/data/ipfs-cluster'
+      - "data:/data/ipfs-cluster"
     ports:
-      - '9096:9096'
+      - "9096:9096"
     environment:
       - CLUSTER_PEERNAME=
       - CLUSTER_SECRET=
